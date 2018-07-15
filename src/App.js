@@ -27,11 +27,8 @@ class App extends Component {
      window.addEventListener("scroll", this.handleScroll)
    }
 
-   handleScroll(event) {
+   handleScroll() {
      console.log(" we are scrolling")
-     //  add class to nav bar .sticky
-     //  or background black to navbarClass
-    //  console.log(this.refs.nameElement.scrollTop)
     console.log(document.scrollingElement.scrollTop)
     const {scrollTop} = document.scrollingElement
     if (scrollTop > 475){
