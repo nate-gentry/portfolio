@@ -59,38 +59,34 @@ class ProjecDes extends Component {
 
 render (){
     console.log(this.props.match.params.id)// id from projects 
+    const result = this.state[this.props.match.params.id]
     return (
       <div className="finish">
-         {/* if  */}
-            {/* {this.state.resultObj.map(result =>{
-                return ( */}
-                    {/* <div className="screen">
-                      <div className="wrapper">
-                        <img className="img" src={result.img}/> 
-                        <img   className="img1" src="http://pngimg.com/uploads/macbook/macbook_PNG55.png" />
-                      </div>
-                    </div>
-                    <Container>
-                      <Row sm="6" xs="12"> 
-                         <Col>
-                             <h1>{result.Title}</h1></Col>
-                         <Col> 
-                            <h1><a href={result.url}>Visit webSite </a></h1>
-                         </Col>
-                      </Row>
-                       <hr/>
-                       <Row>
-                          <Col sm="12" xs="12">
-                            <p>{result.description}</p>
-                          </Col>
-                        </Row>
-                         <hr/>
-                         <Row sm="6" xs="12" >
-                             <p>{result.languages}</p>
-                        </Row>
-                    </Container> */}
-                {/* ) 
-            })} */}
+        <div className="screen">
+            <div className="wrapper">
+            <img className="img" src={result.img}/> 
+            <img   className="img1" src="http://pngimg.com/uploads/macbook/macbook_PNG55.png" />
+            </div>
+        </div>
+        <Container>
+            <Row sm="6" xs="12"> 
+                <Col>
+                    <h1>{result.Title}</h1></Col>
+                <Col> 
+                <h1><a href={result.url}>Visit webSite </a></h1>
+                </Col>
+            </Row>
+            <hr/>
+            <Row>
+                <Col sm="12" xs="12">
+                <p>{result.description}</p>
+                </Col>
+            </Row>
+                <hr/>
+                <Row sm="6" xs="12" >
+                    <p>{result.languages}</p>
+            </Row>
+        </Container>
     </div>
      )
     }

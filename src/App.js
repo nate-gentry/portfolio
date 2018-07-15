@@ -11,23 +11,56 @@ import ProjecDes from "./ProjecDes";
 
 
 
+
+
 class App extends Component {
+
+   constructor() {
+     super();
+      this.state = {
+        isBlack : false 
+      }
+     this.handleScroll = this.handleScroll.bind(this);
+   }
+
+   componentDidMount(){
+     window.addEventListener("scroll", this.handleScroll)
+   }
+
+   handleScroll(event) {
+     console.log(" we are scrolling")
+     //  add class to nav bar .sticky
+     //  or background black to navbarClass
+    //  console.log(this.refs.nameElement.scrollTop)
+    console.log(document.scrollingElement.scrollTop)
+    const {scrollTop} = document.scrollingElement
+    if (scrollTop > 475){
+      this.setState({
+        isBlack : true
+      })
+    }else {
+     this.setState({
+      isBlack: false 
+     })
+    }
+   }
+
 
   
   render() {
     return (
-      <div className="App">
-         <div className="backgrounBody">
-         <div className="spacer"></div>
-          <h4 className="mainTitle"> Nick Zamiatin </h4>
-          <Container>
-            <Switch>
-              <Route exact path='/' component={About} />
-              <Route path='/:id' component={ProjecDes}/>
-            </Switch>
-          </Container>
-          <Footer />
-          <NavbarClass />
+      <div className="App" >
+         <div className="backgrounBody"  ref="nameElement">
+            <div className="spacer"></div>
+            <h4  className="mainTitle"> Nick Zamiatin </h4>
+            <Container>
+              <Switch>
+                <Route exact path='/' component={About} />
+                <Route path='/:id' component={ProjecDes}/>
+              </Switch>
+            </Container>
+            <Footer />
+            <NavbarClass isBlack={this.state.isBlack} />
         </div>
       </div>
     );

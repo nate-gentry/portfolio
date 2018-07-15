@@ -7,29 +7,15 @@ import { Link } from 'react-router-dom'
 
 class NavbarClass extends Component {
 
- constructor() {
-   super();
-   this.handleScroll = this.handleScroll.bind(this);
- }
-
- componentDidMount() {
-   window.addEventListener('scroll', this.handleScroll);
-
-   
- };
+ 
 
 
-
- handleScroll(event) {
-  //  add class to nav bar .sticky
-  //  or background black to navbarClass
- };
 
   render(){
     return (
       <header className="headerClass">
-        <div className="navbarClass" onScroll={this.handleScroll}   >
-          <Row className="navigationRow">
+        <div className="navbarClass"  >
+          <Row className="navigationRow" style={{backgroundColor : this.props.isBlack ? "black" : "transparent"}} >
             <Col><Link to="/">Projects</Link></Col>
             <Col><Link to="/">About</Link></Col>
             {/* <br/> */}
