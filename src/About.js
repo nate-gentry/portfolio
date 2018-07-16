@@ -53,7 +53,7 @@ class About extends Component {
           <Row className="contact">
         
             <Col >
-            <h1>Full Stack Developer & Design in New York City, NY </h1></Col>
+            <h1>Full Stack Developer & Designer in New York City, NY </h1></Col>
              <Col>
              <h2>Contact</h2>
               <hr/>

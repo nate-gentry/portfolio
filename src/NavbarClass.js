@@ -18,16 +18,11 @@ class NavbarClass extends Component {
           <Row className="navigationRow" style={{backgroundColor : this.props.isBlack ? "black" : "transparent"}} >
             <Col><Link to="/">Projects</Link></Col>
             <Col><Link to="/">About</Link></Col>
-            {/* <br/> */}
+
             <Col><Link to="/">Contact</Link></Col>
             <Col><Link to="/">Capabilities</Link></Col>
           </Row>
-          {/* <Row>    
-            <Col>
-            <h4 className="mainTitle"> Nick Zamiatin </h4>
-            </Col>
-          </Row> */}
-        
+     
         </div>
       </header>
     )

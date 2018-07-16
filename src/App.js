@@ -48,8 +48,10 @@ class App extends Component {
     return (
       <div className="App" >
          <div className="backgrounBody"  ref="nameElement">
+         <div className="headerimg">
             <div className="spacer"></div>
             <h4  className="mainTitle"> Nick Zamiatin </h4>
+            </div>
             <Container>
               <Switch>
                 <Route exact path='/' component={About} />

@@ -26,7 +26,7 @@ render (){
                 <Col  xs="12" className="project6" id="Connect4"><h1><Link to="/connect4">Connect4</Link></h1></Col>
               </Row>
           </Col>
-          <Col sm="6" xs="12" className="project6" id="Recepi"><h1><Link to="/recepi">Recepi</Link></h1></Col>
+          <Col sm="6" xs="12" className="project6" id="Recepi"><h1><Link to="/recepi">Dev Recipe</Link></h1></Col>
         </Row>
 
       
