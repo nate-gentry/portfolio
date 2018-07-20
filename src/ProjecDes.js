@@ -14,15 +14,15 @@ class ProjecDes extends Component {
             Title : "Capstone",
             img :"",
             url :"",
-            description : "",
+            description : "Coming  Soon ",
             languages : []
         },
-        reactNative : {
-            Title : " React Native",
-            img :"",
-            url :"",
-            description : "",
-            languages : []
+        anteup : {
+            Title : " Ante-Up",
+            img :"https://snag.gy/ReAtSl.jpg",
+            url :"https://anteup-app.firebaseapp.com/",
+            description : "AnteUp is an FullStack application that enables friends to bet against each other for fun and bragging rights! Bets don’t have to be about money and can be something like: loser must die their hair blue for a week. Users are able to log in via Facebook, send bet requests to each other, view the status of their bets and vote on the winner. ",
+            languages : ["React            ", "            Node            ", "         Express          ", "          HTML          ", "        CSS         ", "            Facebook for  Developers                      ", "          Ant Design           "]
         },
         codeTube : {
              Title : "CodeTube",

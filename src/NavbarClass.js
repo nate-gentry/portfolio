@@ -17,10 +17,10 @@ class NavbarClass extends Component {
         <div className="navbarClass"  >
           <Row className="navigationRow" style={{backgroundColor : this.props.isBlack ? "black" : "transparent"}} >
             <Col><Link to="/">Projects</Link></Col>
-            <Col><Link to="/">About</Link></Col>
+            <Col>About</Col>
 
-            <Col><Link to="/">Contact</Link></Col>
-            <Col><Link to="/">Capabilities</Link></Col>
+            <Col>Contact</Col>
+            <Col>Skills</Col>
           </Row>
      
         </div>
