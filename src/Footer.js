@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 
 class Footer extends Component {
@@ -11,7 +11,7 @@ render (){
               <Col sm="6" className="">
               <h3><a href="https://www.linkedin.com/in/nick-zamiatin-17bb04156/">LinkedIn</a></h3>
               <h3><a href="https://github.com/NickZamiatin">GitHub</a></h3>
-             <h3><a href="https://twitter.com/4406015">Twitter</a></h3>
+             <h3><a href="/Resume.pdf">Resume</a></h3>
               </Col>
    
             
