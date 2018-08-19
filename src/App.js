@@ -26,8 +26,6 @@ class App extends Component {
    }
 
    handleScroll() {
-     console.log(" we are scrolling")
-    console.log(document.scrollingElement.scrollTop)
     const {scrollTop} = document.scrollingElement
     if (scrollTop > 475){
       this.setState({
@@ -53,7 +51,7 @@ class App extends Component {
             <Container>
               <Switch>
                 <Route exact path='/' component={About} />
-                <Route path='/:id' component={ProjecDes}/>
+                <Route path='/project/:id' component={ProjecDes}/>
               </Switch>
             </Container>
             <Footer />

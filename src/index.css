@@ -128,12 +128,24 @@ a {
   height: 500px;
 }
 
-#Reactnative {
+#anteup {
   border-color: aliceblue;
   border-style: solid;
   text-align: center;
   width: 250px !important;
   height: 250px !important;
+}
+#anteup:hover{
+  background-image: url("https://media.giphy.com/media/q9wOpffm9JxMQ/giphy.gif");
+  background-size: cover ;
+  justify-content: center;
+  background-repeat: no-repeat ;
+  display: block;
+}
+
+#anteup :hover a {
+  color: black !important;
+
 }
 
 #CodeTube {
@@ -151,6 +163,11 @@ a {
   width: 500px;
   height: 500px;
 }
+#Recepi:hover{
+  background-image: url("https://media.giphy.com/media/v0Jtcw4BAmT0Q/giphy.gif");
+  background-size: cover ;
+  background-repeat: no-repeat ;
+}
 
 #Connect4 {
   border-color: aliceblue;
@@ -158,6 +175,14 @@ a {
   text-align: center;
   width: 250px !important;
   height: 250px !important;
+}
+
+#Connect4:hover{
+  background-image: url("https://media.giphy.com/media/Hw6KtfOH5xKXm/giphy.gif");
+  background-size: cover ;
+  justify-content: center;
+  background-repeat: no-repeat ;
+  display: block;
 }
 
 #WebMap {
@@ -168,6 +193,13 @@ a {
   height: 250px !important;
 }
 
+#WebMap:hover{
+  background-image: url("https://media.giphy.com/media/xUySTOigOUHucl3rfW/giphy.gif");
+  background-size: 100%;
+  justify-content: center;
+  background-repeat: repeat ;
+  display: block;
+}
 #Connect4 h1 {
   margin-top: 20%;
 }
@@ -184,12 +216,19 @@ a {
   margin-top: 38%;
 }
 
-#Reactnative h1 {
+#anteup h1 {
   margin-top: 20%;
 }
 
 #CodeTube h1 {
   margin-top: 20%;
+}
+#CodeTube:hover{
+  background-image: url("https://cdn.dribbble.com/users/1369921/screenshots/3699553/yt-new-button-yoodle.gif");
+  background-size: cover;
+  justify-content: center;
+  background-repeat: repeat ;
+  display: block;
 }
 
 .screen {
