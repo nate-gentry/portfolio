@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import About from './About';
 import Footer from './Footer';
-import Projects from './Projects';
+import Capstone from './Capstone';
+// import Projects from './Projects';
 import NavbarClass from './NavbarClass';
 import { Container, Row, Col } from 'reactstrap';
 import {Switch , Route} from "react-router-dom"
@@ -51,6 +52,7 @@ class App extends Component {
             <Container>
               <Switch>
                 <Route exact path='/' component={About} />
+                <Route  exact path='/project/capstone' component={Capstone}/>
                 <Route path='/project/:id' component={ProjecDes}/>
               </Switch>
             </Container>
