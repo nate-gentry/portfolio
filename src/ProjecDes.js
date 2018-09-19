@@ -29,7 +29,7 @@ class ProjecDes extends Component {
         codeTube : {
              Title : "CodeTube",
              img: "https://i.snag.gy/yvgN3U.jpg",
-            url :"https://codetubeproject.now.sh/",
+            url :"https://build-hvrfpkmlec.now.sh/",
             github : "https://github.com/NickZamiatin/CodeTube-React-Project",
             description: "CodeTube is an app where the user can navigate through four of my favorite topics in web development. The user can filter by AWS, React, JavaScript or Coding Garden. The search results will appear on the next page as a card and then the user can click on a result to view the video on an image of an iMac. The main idea is to implement YouTube’s API in a React app. ",
             languages: ["HTML         ", "    CSS       ", "        JavaScript     ", "     React      ", "       Reactstrap      ", "      Now        ", "      You Tube API       ",  "      Fetch       ", "      Google Cloud Console"]
@@ -37,7 +37,7 @@ class ProjecDes extends Component {
         connect4 : {
             Title : "Connect4",
             img :"https://snag.gy/zk93QG.jpg",
-            url: "https://q1projectnzgalvanize.firebaseapp.com/",
+            url: "https://q1project-ykdjnrceah.now.sh/",
             github: "https://github.com/NickZamiatin/Q1project",
             description : "Connect Four is my favorite game that I recreated for my first project at Galvanize. I learned how to use DOM manipulation, vanilla JavaScript, and HTML&CSS. The hardest part for me was running JavaScript horizontally and diagonally while adding a class to each div.",
             languages : ["        HTML       ", "         CSS       ", "       JavaScript      ", "      JQuery   ", "        Firebase"]
@@ -53,7 +53,7 @@ class ProjecDes extends Component {
         recepi : {
             Title : "Dev Recipe", 
             img :"https://i.snag.gy/CSHYrk.jpg",
-            url :"https://recipeq2.firebaseapp.com/",
+            url :"https://q2project-front-jqujccpyrr.now.sh/",
             github: "https://github.com/NickZamiatin/Q2Project-back",
             description: "Dev Recipe is my first full sttack app where the user can add their favorite recipes. The user can input name, ingredients, prep time, country, gluten-free, and action with each new recipe. For this project I created the back end and the front end for the first time. The hardest part was figuring out how the back end works and how to open a new page when a button is clicked.",
             languages: ["  JavaScript        ", "    HTML     ", "      CSS     ", "    Bootstrap     ", "       AJAX     ", "      HEROKU    ","      Firebase"]
