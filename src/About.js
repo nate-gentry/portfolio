@@ -55,10 +55,14 @@ class About extends Component {
             <Col >
             <h1>Full Stack Developer & Designer in New York City, NY </h1></Col>
              <Col>
-             <h2>Contact</h2>
+             <h2 style={{textAlign:'center'}}>Contact me </h2>
               <hr/>
-             <p>I am currently looking for full time employment and would love to hear from you.</p>
+             {/* <p>I am currently looking for full time employment and would love to hear from you.</p> */}
              <a href="mailto:nickzamiatin@gmail.com">nickzamiatin@gmail.com</a>
+             <br/>
+             <h3><a href="https://www.linkedin.com/in/nick-zamiatin-17bb04156/">LinkedIn</a></h3>
+             <br/>
+              <h3><a href="https://github.com/NickZamiatin">GitHub</a></h3>
              </Col>
              </Row>
        
